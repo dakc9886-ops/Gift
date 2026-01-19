@@ -11,7 +11,7 @@ setInterval(() => {
   heart.className = "heart";
   heart.innerHTML = "❤️";
   heart.style.left = Math.random() * 100 + "vw";
-  heart.style.fontSize = Math.random() * 30 + 10 + "px";
+  heart.style.fontSize = Math.random() * 4 + 2 + "vw";
   document.body.appendChild(heart);
 
   setTimeout(() => {

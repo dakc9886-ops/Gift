@@ -1,6 +1,10 @@
 const audio = document.getElementById("bgm");
-audio.muted = false;
-audio.play();
+const btn = document.getElementById("startBtn");
+
+btn.addEventListener("click", () => {
+  audio.play();
+  btn.style.display = "none";
+});
 
 setInterval(() => {
   const heart = document.createElement("div");
